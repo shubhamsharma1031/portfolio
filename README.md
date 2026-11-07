@@ -1,5 +1,7 @@
 # Shubham Sharma: Portfolio
 
+![Cover](docs/cover.png)
+
 My personal portfolio website, live at **[shubhamsharma1031.netlify.app](https://shubhamsharma1031.netlify.app/)**.
 
 Single-page site built with **HTML, CSS and JavaScript**, with no frameworks:
@@ -9,6 +11,10 @@ Single-page site built with **HTML, CSS and JavaScript**, with no frameworks:
 - Project cards with 3D tilt and filter buttons
 - Scroll progress bar, active section highlighting, copy-email button
 - Fully responsive, and animations respect `prefers-reduced-motion`
+
+## Full page
+
+![Full page](docs/full_page.png)
 
 ## Run locally
 
