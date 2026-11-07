@@ -22,4 +22,4 @@ Open `index.html` in a browser.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/shubham-sharma-27aa38268) · shubhamkhandal1031@gmail.com
+[LinkedIn](https://www.linkedin.com/in/shubhamsharma1031) · shubhamkhandal1031@gmail.com
