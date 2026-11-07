@@ -152,6 +152,12 @@ h3 { font-size: 20px; font-weight: 600; line-height: 1.35; }
 .allrepos { text-align: center; margin-top: 28px; }
 .allrepos a { font-family: var(--font-mono); color: var(--cyan); text-decoration: none; border: 1px solid var(--line); padding: 10px 18px; border-radius: 99px; transition: border-color .2s; }
 .allrepos a:hover { border-color: var(--cyan); }
+/* whole project card opens its GitHub repo (stretched link) */
+.proj { cursor: pointer; }
+.proj .plink:last-child::after, .proj > .plink::after { content: ""; position: absolute; inset: 0; z-index: 1; border-radius: inherit; }
+.proj .plinks .plink:first-child { position: relative; z-index: 2; }
+.proj:hover h3 { color: var(--cyan); }
+.proj h3 { transition: color .2s; }
 .flinks { display: flex; justify-content: center; gap: 22px; margin-bottom: 12px; flex-wrap: wrap; }
 .flinks a { color: var(--ink); text-decoration: none; font-weight: 500; }
 .flinks a:hover { color: var(--cyan); }
